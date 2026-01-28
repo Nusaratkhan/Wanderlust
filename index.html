@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust | Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">🌍 Wanderlust</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Adventure Awaits</h1>
+        <p>Discover the world's most beautiful hidden gems.</p>
+        <a href="#destinations" class="btn">Start Exploring</a>
+    </div>
+</section>
+
+<section id="destinations">
+    <h2>Popular Destinations</h2>
+    <div class="destinations-grid" id="grid"></div>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modalImg">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <p><strong>📍 Location:</strong> <span id="modalLoc"></span></p>
+        <p><strong>🗓 Best Time:</strong> <span id="modalTime"></span></p>
+    </div>
+</div>
+
+<!-- <footer id="contact">
+    <h3>Connect With Us</h3>
+    <p>Let’s plan your next adventure 🌎</p>
+
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <form id="contactForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</footer> -->
+<footer class="global-footer">
+  <div class="footer-top">
+
+    <!-- Left Section -->
+    <div class="footer-brand">
+      <h3>🌍 Wanderlust</h3>
+      <p>
+        Discover how people, professionals, and businesses are
+        building a better future by living, working, and exploring
+        cities across the world.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- Column 1 -->
+    <div class="footer-column">
+      <h4>Popular links</h4>
+      <a href="#">Why GlobalLife</a>
+      <a href="#">Business & Jobs</a>
+      <a href="#">Insights & Articles</a>
+      <a href="#">Events Calendar</a>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-column">
+      <h4>Helpful information</h4>
+      <a href="#">Contact us</a>
+      <a href="#">Support for startups</a>
+      <a href="#">FAQs</a>
+      <a href="#">Work visas</a>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-column">
+      <h4>Related sites</h4>
+      <a href="#">Visit Cities</a>
+      <a href="#">Study Abroad</a>
+      <a href="#">Consumer Rights</a>
+      <a href="#">Retire Overseas</a>
+      <a href="#">MICE</a>
+    </div>
+
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <div class="footer-links">
+      <a href="#">Terms of use</a>
+      <a href="#">Privacy notice</a>
+      <a href="#">Cookie notice</a>
+      <a href="#">Cookie preferences</a>
+    </div>
+    <p>Site last updated 24/01/2026</p>
+  </div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    ↑
+  </button>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
